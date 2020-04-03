@@ -21,7 +21,7 @@ public class ACME
 		
 		ChromeDriver driver=new ChromeDriver();
 		
-		
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://acme-test.uipath.com/account/login");
 
 		
