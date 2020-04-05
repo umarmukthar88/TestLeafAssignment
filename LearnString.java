@@ -69,6 +69,7 @@ public class LearnString {
 				String substring2 = txt.substring(15, txt.length()-1);
 				System.out.println(substring2);
 				
+		
 				System.out.println(txt1.equals("Ver 2.0"));
 				
 				System.out.println(txt1.equalsIgnoreCase("Ver 2.0"));
